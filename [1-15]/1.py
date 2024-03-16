@@ -5,9 +5,10 @@ The sum of these multiples is 23 . Find the sum of all the multiples of 3 or 5 b
 
 def f(n):
     result = 0
-    for i in range(n + 1):  # +1 to include n
-        if n % 3 == 0 or n % 5 == 0:  # check if divisible by 3 or 5 without remainder
-            result += n
+    for i in range(n):
+        if i % 3 == 0 or i % 5 == 0:  # check if divisible by 3 or 5 without remainder
+            result += i
+    return result
 
 
-print(f(1000))
+print(f(1000))  # 233168

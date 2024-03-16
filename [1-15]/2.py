@@ -22,4 +22,5 @@ while fibonacci(i) < 4000000:  # 4000000 is the limit of the fibonacci sequence
     if fibonacci(i) % 2 == 0:
         result += fibonacci(i)
     i += 1
-print(result)
+
+print(result)  # 4613732

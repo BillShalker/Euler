@@ -25,12 +25,13 @@ def all_dividers(n):
     return result
 
 
-number = int(input("Enter number: "))  # 600851475143
+if __name__ == "__main__":
+    number = int(input("Enter number: "))  # 600851475143
 
-for el in all_dividers(number)[::-1]:
-    if is_simple(el):
-        print(el)  # 6857
-        break
+    for el in all_dividers(number)[::-1]:
+        if is_simple(el):
+            print(el)  # 6857
+            break
 
 """
 def all_dividers(n):

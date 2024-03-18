@@ -5,7 +5,9 @@ What is the largest prime factor of the number 600851475143 ?
 """
 
 
-def is_simple(n):  # simple solution
+def is_prime(n):  # simple solution
+    if n == 2 or n == 1:
+        return True
     if n % 2 == 0:
         return False
     for i in range(2, n):
@@ -29,7 +31,7 @@ if __name__ == "__main__":
     number = int(input("Enter number: "))  # 600851475143
 
     for el in all_dividers(number)[::-1]:
-        if is_simple(el):
+        if is_prime(el):
             print(el)  # 6857
             break
 

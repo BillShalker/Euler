@@ -1,7 +1,19 @@
 """
-The prime factors of 13195 are 5, 7, 13 and 29.
+This script finds the largest prime factor of a given number.
 
-What is the largest prime factor of the number 600851475143 ?
+Args:
+    n (int): The number for which to find the largest prime factor.
+
+Returns:
+    int: The largest prime factor of the given number.
+
+Example:
+    If we call the script and enter the number 600851475143, it will find and print the largest prime factor.
+
+Note:
+    A prime factor is a prime number that divides another number without leaving a remainder.
+    The script first finds all divisors of the number, then iterates through them in reverse order to find the largest prime factor.
+    It checks each divisor to see if it is prime using the `is_prime` function.
 """
 
 
@@ -32,15 +44,14 @@ if __name__ == "__main__":
 
     for el in all_dividers(number)[::-1]:
         if is_prime(el):
-            print(el)  # 6857
+            print(el)  # Expected output: 6857
             break
 
 """
-def all_dividers(n):
-    1)Find the square root of  N and round it down to the nearest whole number, let's denote it as M. 
-    2)For each number i in the range from 1 to M, inclusive, perform the following steps:
-        -If N is divisible by i without a remainder, then i and / N/i are divisors of N. 
-    3)Take into account that if  N is a perfect square, then its square root will be counted twice. In such a case,
-        add it to the list of divisors only once.
+This function `all_dividers(n)` finds all the divisors of a given number.
+To find divisors, it iterates through numbers from 1 up to the square root of the given number.
+If a number divides the given number without leaving a remainder, it's considered a divisor.
+The function returns a list containing all such divisors, including both the divisor itself and the result of dividing the given number by it.
+It also ensures that if the given number is a perfect square, its square root is counted only once.
 
 """

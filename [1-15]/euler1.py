@@ -1,6 +1,16 @@
-"""If we list all the natural numbers below 10 that are multiples of 3 or 5 , we get 3 , 5 , 6 and 9.
+"""
+This function calculates the sum of all natural numbers below a given number that are multiples of 3 or 5.
 
-The sum of these multiples is 23 . Find the sum of all the multiples of 3 or 5 below 1000 ."""
+Args:
+    n (int): The upper limit (exclusive) up to which to find the sum of multiples of 3 or 5.
+
+Returns:
+    int: The sum of all multiples of 3 or 5 below the given number.
+
+Example:
+    If we call f(10), the function will find all multiples of 3 or 5 below 10, which are 3, 5, 6, and 9.
+    The sum of these multiples is 23, so the function will return 23.
+"""
 
 
 def f(n):
@@ -11,4 +21,11 @@ def f(n):
     return result
 
 
-print(f(1000))  # 233168
+print(f(1000))  # Expected output: 233168
+"""
+This Python code defines a function `f(n)` that calculates the sum of all natural numbers below a given number `n` 
+                                                                                    that are multiples of 3 or 5. 
+It iterates through all numbers below `n` and checks if each number is divisible by 3 or 5 without remainder. 
+If it is, the number is added to the `result`. Finally, it returns the sum of all such multiples. 
+The example provided calls the function with an argument of 1000 and prints the result.
+"""

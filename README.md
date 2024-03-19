@@ -25,7 +25,8 @@ script:
 5. **euler5.py**: Finds the smallest positive number evenly divisible by all numbers from 1 to 20.
 6. **euler6.py**: Calculates the difference between the square of the sum and the sum of squares of the first 100
    natural numbers.
-
+7. **euler7.py**: Generates the nth prime number.
+   
 ## Usage
 
 To use the scripts:

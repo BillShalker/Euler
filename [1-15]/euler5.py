@@ -23,8 +23,6 @@ Note:
 from euler3 import is_prime
 import math
 
-number = int(input("Enter number (from 1 to n): "))
-
 
 def list_of_prime_numbers(n):  # returns list of prime numbers
     result = []
@@ -41,7 +39,9 @@ def least_common_multiple(n):
     return result
 
 
-print(least_common_multiple(number))
+if __name__ == "__main__":
+    number = int(input("Enter number (from 1 to n): "))
+    print(least_common_multiple(number))
 
 """
 Explanation of the Algorithm:

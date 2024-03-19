@@ -26,6 +26,7 @@ script:
 6. **euler6.py**: Calculates the difference between the square of the sum and the sum of squares of the first 100
    natural numbers.
 7. **euler7.py**: Generates the nth prime number.
+8. **euler8.py**: Finds the largest product of 13 adjacent digits in a given number.
    
 ## Usage
 

@@ -28,12 +28,16 @@ Example:
 """
 
 
-def pythagoras_triplet(n):
+def pythagoras_triplet(num):
     for m in range(1, 100):
         for n in range(1, m):
             a = m ** 2 - n ** 2
             b = 2 * m * n
             c = m ** 2 + n ** 2
-            if a + b + c == n:
+            if a + b + c == num:
                 result = f"{a} + {b} + {c} = {a + b + c} | m = {m} n = {n}"
                 return result
+    return None
+
+
+print(pythagoras_triplet(1000))

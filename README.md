@@ -28,7 +28,8 @@ script:
 7. **euler7.py**: Generates the nth prime number.
 8. **euler8.py**: Finds the largest product of 13 adjacent digits in a given number.
 9. **euler9.py**: Finds a Pythagorean triplet whose sum equals a given number.
-   
+10. **euler10.py**: Finds sum of all prime numbers below a given limit.
+
 ## Usage
 
 To use the scripts:

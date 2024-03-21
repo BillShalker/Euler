@@ -29,6 +29,7 @@ script:
 8. **euler8.py**: Finds the largest product of 13 adjacent digits in a given number.
 9. **euler9.py**: Finds a Pythagorean triplet whose sum equals a given number.
 10. **euler10.py**: Finds sum of all prime numbers below a given limit.
+11. **euler11.py**: Finds the largest product of four adjacent numbers in the same direction
 
 ## Usage
 

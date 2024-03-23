@@ -30,6 +30,7 @@ script:
 9. **euler9.py**: Finds a Pythagorean triplet whose sum equals a given number.
 10. **euler10.py**: Finds sum of all prime numbers below a given limit.
 11. **euler11.py**: Finds the largest product of four adjacent numbers in the same direction
+12. **euler12.py**: Finds the first triangle number to have over N divisors
 
 ## Usage
 

@@ -31,6 +31,7 @@ script:
 10. **euler10.py**: Finds sum of all prime numbers below a given limit.
 11. **euler11.py**: Finds the largest product of four adjacent numbers in the same direction
 12. **euler12.py**: Finds the first triangle number to have over N divisors
+13. **euler13.py**: Script calculates the sum of the first ten digits of a large number provided as a string.
 
 ## Usage
 

@@ -17,21 +17,26 @@ Russian version: [Проект Ейлера](https://euler.jakumo.org)
 Each Python script in this repository corresponds to a specific problem from Project Euler. The scripts are named
 according to the problem number and briefly describe the problem they solve. Below is a brief description of each
 script:
+### Project Euler Solutions
+
+<details>
+  <summary>Euler 1 - 15 </summary>
 
 1. **euler1.py**: Calculates the sum of all multiples of 3 or 5 below 1000.
 2. **euler2.py**: Finds the sum of even-valued terms in the Fibonacci sequence whose values do not exceed four million.
 3. **euler3.py**: Finds the largest prime factor of a given number.
 4. **euler4.py**: Finds the largest palindrome product of two 3-digit numbers.
 5. **euler5.py**: Finds the smallest positive number evenly divisible by all numbers from 1 to 20.
-6. **euler6.py**: Calculates the difference between the square of the sum and the sum of squares of the first 100
-   natural numbers.
+6. **euler6.py**: Calculates the difference between the square of the sum and the sum of squares of the first 100 natural numbers.
 7. **euler7.py**: Generates the nth prime number.
 8. **euler8.py**: Finds the largest product of 13 adjacent digits in a given number.
 9. **euler9.py**: Finds a Pythagorean triplet whose sum equals a given number.
 10. **euler10.py**: Finds sum of all prime numbers below a given limit.
-11. **euler11.py**: Finds the largest product of four adjacent numbers in the same direction
-12. **euler12.py**: Finds the first triangle number to have over N divisors
+11. **euler11.py**: Finds the largest product of four adjacent numbers in the same direction.
+12. **euler12.py**: Finds the first triangle number to have over N divisors.
 13. **euler13.py**: Script calculates the sum of the first ten digits of a large number provided as a string.
+
+</details>
 
 ## Usage
 

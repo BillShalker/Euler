@@ -1,60 +1,71 @@
 # Project Euler Solutions
 
-This repository contains Python solutions to various problems from Project Euler.
+Welcome to my collection of Python solutions for the intriguing problems found on Project Euler.
 
-## What is Project Euler?
+## Introduction to Project Euler
 
-Project Euler is a collection of challenging mathematical/computer programming problems that require more than just
-mathematical insights to solve. The problems are intended to be solved using computer programs, although the
-mathematical aspect is also important.
+Project Euler offers a series of complex challenges that blend mathematics with computer programming. These problems,
+designed to be solved with code, are a fantastic way to improve one's algorithmic and programming skills, while also
+delving deep into mathematical theories.
 
-Website: [Project Euler](https://projecteuler.net/)
+- Official Website: [Project Euler](https://projecteuler.net/)
+- Russian Version: [Проект Ейлера](https://euler.jakumo.org)
 
-Russian version: [Проект Ейлера](https://euler.jakumo.org)
+## Repository Organization
 
-## Structure of the Repository
+This repository is organized with individual Python scripts, each providing a solution to a specific Project Euler
+problem. The scripts are thoughtfully named to correspond with the problem numbers they address. Below, you will find a
+categorized list highlighting select scripts and the problems they tackle:
 
-Each Python script in this repository corresponds to a specific problem from Project Euler. The scripts are named
-according to the problem number and briefly describe the problem they solve. Below is a brief description of each
-script:
-### Project Euler Solutions
+### Detailed Solutions Index
 
 <details>
-  <summary>Euler 1 - 15 </summary>
+  <summary>Click to expand: Solutions for Problems 1 to 15</summary>
 
-1. **[euler1.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler1.py)**: Calculates the sum of all multiples of 3 or 5 below 1000.
-2. **[euler2.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler2.py)**: Finds the sum of even-valued terms in the Fibonacci sequence whose values do not exceed four million.
-3. **[euler3.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler3.py)**: Finds the largest prime factor of a given number.
-4. **[euler4.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler4.py)**: Finds the largest palindrome product of two 3-digit numbers.
-5. **[euler5.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler5.py)**: Finds the smallest positive number evenly divisible by all numbers from 1 to 20.
-6. **[euler6.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler6.py)**: Calculates the difference between the square of the sum and the sum of squares of the first 100 natural numbers.
-7. **[euler7.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler7.py)**: Generates the nth prime number.
-8. **[euler8.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler8.py)**: Finds the largest product of 13 adjacent digits in a given number.
-9. **[euler9.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler9.py)**: Finds a Pythagorean triplet whose sum equals a given number.
-10. **[euler10.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler10.py)**: Finds sum of all prime numbers below a given limit.
-11. **[euler11.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler11.py)**: Finds the largest product of four adjacent numbers in the same direction.
-12. **[euler12.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler12.py)**: Finds the first triangle number to have over N divisors.
-13. **[euler13.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler13.py)**: Script calculates the sum of the first ten digits of a large number provided as a string.
+- **[euler1.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler1.py)**: Sum of all multiples of 3 or 5
+  below 1000.
+- **[euler2.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler2.py)**: Sum of even Fibonacci numbers up
+  to four million.
+- **[euler3.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler3.py)**: Largest prime factor of a
+  composite number.
+- **[euler4.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler4.py)**: Largest palindrome made from the
+  product of two 3-digit numbers.
+- **[euler5.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler5.py)**: Smallest multiple of numbers 1
+  through 20.
+- **[euler6.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler6.py)**: Difference between the square of
+  the sum and the sum of the squares of the first 100 natural numbers.
+- **[euler7.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler7.py)**: The 10001st prime number.
+- **[euler8.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler8.py)**: Largest product of thirteen
+  adjacent digits in a 1000-digit number.
+- **[euler9.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler9.py)**: Special Pythagorean triplet for
+  which a + b + c = 1000.
+- **[euler10.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler10.py)**: Sum of all primes below two
+  million.
+- **[euler11.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler11.py)**: Largest product of four
+  adjacent numbers in any direction (up, down, left, right) in a 20×20 grid.
+- **[euler12.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler12.py)**: The value of the first
+  triangle number to have over five hundred divisors.
+- **[euler13.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler13.py)**: Large sum of fifty 100-digit
+  numbers.
 
 </details>
 
-## Usage
+## How to Use
 
-To use the scripts:
+To dive into solving these fascinating problems:
 
-1. Clone the repository to your local machine.
-2. Navigate to the directory containing the scripts.
-3. Run each script using Python (e.g., `python euler1.py`).
+1. Clone the repository to your machine.
+2. Navigate to the script directory of your choice.
+3. Execute a script with Python, for example, `python euler1.py`.
 
-## Contributions
+## Contributing
 
-Contributions to this repository are welcome. If you have an efficient solution to a Project Euler problem that is not
-yet included here, feel free to submit a pull request.
+Your contributions are highly appreciated! If you've devised an elegant solution to a Project Euler problem not covered
+here, or have improvements for existing solutions, please feel free to submit a pull request.
 
 ## Disclaimer
 
-Please note that while these solutions provide answers to the Project Euler problems, they may not always be the most
-optimized or efficient solutions. They are intended to demonstrate problem-solving techniques and Python programming
-skills.
+While these solutions aim to solve Project Euler problems, they may not always represent the most optimized approaches.
+Their primary goal is to illustrate various problem-solving strategies and Python programming techniques.
 
-Happy coding!
+Happy Problem Solving!

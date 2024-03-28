@@ -68,4 +68,4 @@ here, or have improvements for existing solutions, please feel free to submit a 
 While these solutions aim to solve Project Euler problems, they may not always represent the most optimized approaches.
 Their primary goal is to illustrate various problem-solving strategies and Python programming techniques.
 
-Happy Problem Solving!
+Happy у Solving!

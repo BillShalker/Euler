@@ -47,6 +47,7 @@ categorized list highlighting select scripts and the problems they tackle:
   triangle number to have over five hundred divisors.
 - **[euler13.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler13.py)**: Large sum of fifty 100-digit
   numbers.
+- **[euler14.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler14.py)**: Script calculates the maximum number of steps in the Collatz sequence for numbers up to one million
 
 </details>
 

@@ -48,6 +48,7 @@ categorized list highlighting select scripts and the problems they tackle:
 - **[euler13.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler13.py)**: Large sum of fifty 100-digit
   numbers.
 - **[euler14.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler14.py)**: Script calculates the maximum number of steps in the Collatz sequence for numbers up to one million
+- **[euler15.py](https://github.com/BillShalker/Euler/blob/main/%5B1-15%5D/euler15.py)**: Script calculates the number of possible paths in a grid of size 20x20, moving only right or down
 
 </details>
 

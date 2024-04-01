@@ -41,7 +41,7 @@ def least_common_multiple(n):
 
 if __name__ == "__main__":
     number = int(input("Enter number (from 1 to n): "))
-    print(least_common_multiple(number))
+    print(least_common_multiple(number))  # Expected output: 232792560
 
 """
 Explanation of the Algorithm:

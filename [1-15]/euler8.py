@@ -70,4 +70,4 @@ def largest_product_of_adjacent_digits(number, adjacent_digits=13):
     return max(answers)
 
 
-print(largest_product_of_adjacent_digits(numbers))
+print(largest_product_of_adjacent_digits(numbers))  # expected output: 23514624000

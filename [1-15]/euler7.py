@@ -38,4 +38,4 @@ def generate_primes(n):
 
 
 # Print the 10001st prime number
-print(generate_primes(10001))  # 104743
+print(generate_primes(10001))  # Expected output: 104743

@@ -40,4 +40,4 @@ def pythagoras_triplet(num):
     return None
 
 
-print(pythagoras_triplet(1000))
+print(pythagoras_triplet(1000))  # Expected output: 31875000

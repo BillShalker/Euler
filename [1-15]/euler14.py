@@ -1,5 +1,5 @@
 """
-This script calculates the maximum number of steps in the Collatz sequence for numbers up to one million.
+This w.
 
 Explanation:
     The script initializes an empty dictionary `results` to store the number of steps for each integer.
@@ -24,9 +24,11 @@ Example:
 
 results = {}  # Dictionary to store the number of steps for each integer
 
+
 def is_double(f):
     """Check if a number is even."""
     return True if f % 2 == 0 else False
+
 
 # Iterate over numbers from 1 to 999,999
 for i in range(1, 1000000):
@@ -55,3 +57,5 @@ for el in results:
 
 # Print the result
 print(f"The largest number in the Collatz sequence under one million is {max_number}, which has {max_steps} steps.")
+
+# Expected output: 837799, which has 524 steps.

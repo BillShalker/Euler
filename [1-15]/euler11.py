@@ -66,4 +66,4 @@ for i in range(len(number)):
             continue
         result.append(max(horizontal, vertical, diagonal_left, diagonal_right))
 
-print(max(result))
+print(max(result)) # expected output: 70600674

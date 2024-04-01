@@ -54,6 +54,13 @@ categorized list highlighting select scripts and the problems they tackle:
 
 </details>
 
+<details>
+  <summary> <b style="color: cadetblue">Click to expand</b>: Solutions for Problems 16 to 30</summary>
+
+- **[euler16.py](https://github.com/BillShalker/Euler/blob/main/%5B16-30%5D/euler16.py)**: Script calculates the sum of digits of a number raised to a given power.
+
+</details>
+
 ## How to Use
 
 To dive into solving these fascinating problems:

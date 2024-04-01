@@ -33,4 +33,4 @@ def sum_of_digits(n: int, power: int = 1) -> int:
     return result
 
 
-print(sum_of_digits(2, 1000))
+print(sum_of_digits(2, 1000))  # Expected output: 1366

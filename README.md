@@ -58,6 +58,7 @@ categorized list highlighting select scripts and the problems they tackle:
   <summary> <b style="color: cadetblue">Click to expand</b>: Solutions for Problems 16 to 30</summary>
 
 - **[euler16.py](https://github.com/BillShalker/Euler/blob/main/%5B16-30%5D/euler16.py)**: Script calculates the sum of digits of a number raised to a given power.
+- **[euler17.py](https://github.com/BillShalker/Euler/blob/main/%5B16-30%5D/euler17.py)**: Script calculates the sum of letters needed to write out all numbers from 1 to a given number.
 
 </details>
 

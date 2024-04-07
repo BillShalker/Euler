@@ -11,6 +11,18 @@ delving deep into mathematical theories.
 - Official Website: [Project Euler](https://projecteuler.net/)
 - Russian Version: [Проект Ейлера](https://euler.jakumo.org)
 
+## Installation
+
+To install the necessary dependencies for this project, you can use the `pip` package manager and the
+provided `requirements.txt` file.
+
+1. First, navigate to the root directory of your project in your terminal or command prompt.
+2. Then, run the following command to install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Repository Organization
 
 This repository is organized with individual Python scripts, each providing a solution to a specific Project Euler
@@ -57,8 +69,10 @@ categorized list highlighting select scripts and the problems they tackle:
 <details>
   <summary> <b style="color: cadetblue">Click to expand</b>: Solutions for Problems 16 to 30</summary>
 
-- **[euler16.py](https://github.com/BillShalker/Euler/blob/main/%5B16-30%5D/euler16.py)**: Script calculates the sum of digits of a number raised to a given power.
-- **[euler17.py](https://github.com/BillShalker/Euler/blob/main/%5B16-30%5D/euler17.py)**: Script calculates the sum of letters needed to write out all numbers from 1 to a given number.
+- **[euler16.py](https://github.com/BillShalker/Euler/blob/main/%5B16-30%5D/euler16.py)**: Script calculates the sum of
+  digits of a number raised to a given power.
+- **[euler17.py](https://github.com/BillShalker/Euler/blob/main/%5B16-30%5D/euler17.py)**: Script calculates the sum of
+  letters needed to write out all numbers from 1 to a given number.
 
 </details>
 
